@@ -27,7 +27,8 @@ android {
         namespace("com.mahatech.flutter_pax_printer_utility")
     }
 
-    compileSdkVersion 30
+    compileSdkVersion 35
+    buildToolsVersion '35.0.0'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -36,6 +37,7 @@ android {
 
     defaultConfig {
         minSdkVersion 16
+        targetSdkVersion 35
     }
 }
 
